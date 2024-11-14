@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "stringduperfix",
+  "version": "${version}",
+  "name": "String Duper Fix",
+  "description": "Removes MC-129055 / MC-59471 patches, making the string duper work on 1.21.2+",
+  "authors": ["ticua07", "WinExp"],
+  "contact": {
+    "homepage": "https://github.com/ticua07/stringduperfix",
+    "sources": "https://github.com/ticua07/stringduperfix"
+  },
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.ticua07.stringduperfix.StringDuperFix"
+    ]
+  },
+  "mixins": [
+    "stringduperfix.mixins.json",
+    {
+      "config": "stringduperfix.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
