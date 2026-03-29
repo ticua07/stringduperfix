@@ -4,7 +4,10 @@
   "version": "${version}",
   "name": "String Duper Fix",
   "description": "Removes MC-129055 / MC-59471 patches, making the string duper work on 1.21.2+",
-  "authors": ["ticua07", "WinExp"],
+  "authors": [
+    "ticua07",
+    "WinExp"
+  ],
   "contact": {
     "homepage": "https://github.com/ticua07/stringduperfix",
     "sources": "https://github.com/ticua07/stringduperfix"
@@ -24,8 +27,6 @@
     }
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": ">=26.1"
   }
 }
