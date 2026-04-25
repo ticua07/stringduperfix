@@ -4,6 +4,7 @@
   "version": "${version}",
   "name": "String Duper Fix",
   "description": "Removes MC-129055 / MC-59471 patches, making the string duper work on 1.21.2+",
+  "icon": "assets/stringduperfix/icon.png",
   "authors": [
     "ticua07",
     "WinExp"
