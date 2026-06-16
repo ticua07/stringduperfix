@@ -13,7 +13,7 @@
     "homepage": "https://github.com/ticua07/stringduperfix",
     "sources": "https://github.com/ticua07/stringduperfix"
   },
-  "license": "GPL-3.0",
+  "license": "AGPL-3.0",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -28,6 +28,6 @@
     }
   ],
   "depends": {
-    "minecraft": ">=26.1"
+    "minecraft": ">=26.2"
   }
 }
